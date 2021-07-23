@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/REWARDS_STORE/static/css/main.a617e044.chunk.css",
+    "main.js": "/REWARDS_STORE/static/js/main.1a900d49.chunk.js",
+    "main.js.map": "/REWARDS_STORE/static/js/main.1a900d49.chunk.js.map",
+    "runtime-main.js": "/REWARDS_STORE/static/js/runtime-main.80f4be69.js",
+    "runtime-main.js.map": "/REWARDS_STORE/static/js/runtime-main.80f4be69.js.map",
+    "static/js/2.acc6667c.chunk.js": "/REWARDS_STORE/static/js/2.acc6667c.chunk.js",
+    "static/js/2.acc6667c.chunk.js.map": "/REWARDS_STORE/static/js/2.acc6667c.chunk.js.map",
+    "static/js/3.dcee5377.chunk.js": "/REWARDS_STORE/static/js/3.dcee5377.chunk.js",
+    "static/js/3.dcee5377.chunk.js.map": "/REWARDS_STORE/static/js/3.dcee5377.chunk.js.map",
+    "index.html": "/REWARDS_STORE/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/REWARDS_STORE/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.acc6667c.chunk.js.LICENSE.txt": "/REWARDS_STORE/static/js/2.acc6667c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/REWARDS_STORE/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80f4be69.js",
+    "static/js/2.acc6667c.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.1a900d49.chunk.js"
+  ]
+}
