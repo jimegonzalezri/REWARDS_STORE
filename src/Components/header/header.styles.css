@@ -1,0 +1,119 @@
+.Header-container{
+    display:flex;
+    flex-direction: column;
+    height:55.8rem;
+    border: 1px solid black;
+}
+
+.Header-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    height: 8rem;
+    font-family: var(text-sansPro);
+    color:(--color);
+    font-weight: (--font-weight);
+    border: 1px solid black;
+}
+
+.Header-logo{
+    display:flex;
+    align-items: center;
+    margin-left: 4.2rem;
+    background: url('../../Assets/header-images/aerolab-logo.svg');
+    width:3.87rem;
+    height:3.6rem;
+}
+
+.Header-UserAndCoins{
+    display:flex;
+    align-items:center;
+    width:21.5rem;
+    height:4.8rem;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-right: 4.2rem;
+    
+}
+
+.Header-user{
+    width:8.5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+    font-family: var(text-sansPro);
+    color:(--color);
+    font-weight: (--font-weight);
+    font-size: 24px;
+    
+    
+}
+
+.Header-user-points{
+    display: flex;
+    width:10.3rem;
+    height:4.8rem;
+    background-color: #EDEDED;
+    border-radius: 2.05rem;
+    
+  
+}
+
+
+.Header-user-total-points{
+    width:6.1rem; 
+    height:4.8rem;
+    border:none;
+    text-align: center;  
+    display: flex;
+    align-items: center;
+    margin-left:0.5rem;
+    background-color: #EDEDED;
+    font-family: var(text-sansPro);
+    color:(--color);
+    font-weight: (--font-weight);
+    font-size: 24px;
+    border-top-left-radius: 2.05rem; 
+    border-bottom-left-radius: 2.05rem; 
+    background-color: #EDEDED;
+    
+}
+
+.Header-logo-coins{
+    width: 4.2rem;
+    margin-left: 0;
+    border-top-right-radius: 2.05rem; 
+    border-bottom-right-radius: 2.05rem; 
+    height:4.7rem;  
+    background-color: #EDEDED;
+    background:url('../../Assets/header-images/coin.svg');
+    background-size: 100%;
+    background-position: bottom;
+
+}
+
+.Header-main-picture{
+    display:flex;
+    height:48rem; 
+    width:100%;
+    background: url('../../Assets/header-images/header-x2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.Header-clippath{
+    clip-path: polygon(0 0, 100% 0, 100% 85.87%, 0 85.87%);
+    background-color: #ffff;
+}
+
+h1 {
+    font-family: var(text-sansPro);
+    color: #FFFF;
+    font-size: 64px;
+    font-weight:700;
+    width: 31.4rem;
+    height: 8rem;
+    line-height: 80px;
+    margin:28.4rem 99.3rem 11.5rem 13.3rem;
+}

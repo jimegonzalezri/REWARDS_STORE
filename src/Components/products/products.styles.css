@@ -1,0 +1,16 @@
+.Products-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left:13.2rem;
+    height:122.4rem;
+    width:117.6rem;
+    border:solid 1px black;
+    gap:1px;
+}
+
+.Products-results{
+    display:flex;
+    margin-top: 5.4rem;
+    flex-wrap: wrap;
+}
