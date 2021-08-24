@@ -11,13 +11,17 @@ import { Filter } from "../src/Components/filter/Filter";
 import { Products } from "../src/Components/products/Products";
 import { Footer } from "../src/Components/footer/Footer";
 
+
+
+
 function App() {
+  
   return (
     <AppProvider>
       <div className="App">
         <Header />
         <Filter />
-        <Products />
+        <Products/>
         <Footer />
       </div>
     </AppProvider>

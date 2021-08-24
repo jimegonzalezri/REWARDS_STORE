@@ -1,8 +1,7 @@
 .Products-container{
     display:flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-left:13.2rem;
+    margin-left:13.2rem; 
     height:122.4rem;
     width:117.6rem;
     border:solid 1px black;
@@ -11,6 +10,27 @@
 
 .Products-results{
     display:flex;
-    margin-top: 5.4rem;
     flex-wrap: wrap;
+    margin-top: 5.4rem;
+    margin-left:0rem;
+    /* width:27.6rem;
+    height:27.6rem; */
+    gap:2.4rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  
 }
+
+
+
+.Products-items {
+  
+    border-bottom:1px solid #d9d9d9;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background: #ffff;
+}
+
+img {
+    width:17rem;
+    height:14rem; 
+}
+

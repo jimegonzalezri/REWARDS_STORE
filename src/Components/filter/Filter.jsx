@@ -8,13 +8,15 @@ import "../filter/filter.styles.css";
 
 //Componentes
 import {AppContext} from "../../Context/AppContext";
-import { requestGetProducts } from "../../utils/constants";
 
-function Filter() {
+
+
+function Filter({itemsPerPage}) {
+    const {productList, setProductList} = useContext(AppContext);
     const {recent, setRecent} = useContext(AppContext);
     const {lowestPrice, setLowestPrice} = useContext(AppContext);
     const {highestPrice, setHighestPrice} = useContext(AppContext);
-
+   
 
     //Handlers
 
@@ -30,6 +32,13 @@ function Filter() {
         setHighestPrice(!highestPrice);
     }
 
+    // const handleNextPage =(e)=>{
+    //     setCurrentPage(!currentPage);
+    // }
+
+    
+   
+
     //Filtros encadenados
 
     // useEffect(()=>{
@@ -40,6 +49,14 @@ function Filter() {
     //     }
     // })
 
+    // useEffect(()=>{
+    //     if (page ==0){
+        
+
+
+    //     }
+
+    // }, [page])
 
 
     return (
@@ -47,13 +64,12 @@ function Filter() {
             <h2 className="Filter-number-products">""of""products</h2>
             <div className="Filter-options">
                 <h2 className="Filter-sort">Sort by:</h2>
-                <button onclick={handlerRecentBtn} className="Filter-btn">Most Recent</button>
+                <button onClick={handlerRecentBtn} className="Filter-btn">Most Recent</button>
                 <button onClick={handlerLowestBtn} className="Filter-btn">Lowest price</button>
                 <button onClick={handlerHighestBtn} className="Filter-btn">Higher price</button>
             </div>
-            <div className="Filter-arrow-left" ></div>
-            <div className="Filter-arrow-right" ></div>
-
+            <button className="Filter-arrow-left" ></button>
+            <button className="Filter-arrow-right" ></button>    
         </div>
     )
 }
